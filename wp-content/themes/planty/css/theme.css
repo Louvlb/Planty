@@ -1,3 +1,6 @@
+/*HEADER*/
+
+/*Réglage des margin et padding du header pour qu'il prenne toute la largeur*/
 .header-inner{
     margin: 0;
     padding: 0;
@@ -14,26 +17,37 @@
     }
 }
 
+/*Réglage pour reset les margin et padding des liens de menus à 0*/
+@media (min-width: 1220px) {
+    .primary-menu li {
+        margin: 0;
+    }
+}
+
+/*Réglage de la taille de l'image et de l'espacement à droite*/
 .site-logo img {
     width: 300px;
     padding-left: 60px;
 }
 
-li.menu-item a{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 65px;
-}
-
+/*Régalge des espacements, de la couleur et du gras du texte des liens de menus*/
 .lien_menu a{
     color: black !important;
     font-weight: 400;
+    font-family: "Syne", serif;
+    letter-spacing: normal;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: 65px;
 }
 
+/*Réglage des espacements, de la couleur et du gras du texte du lien de menu "Commander" */
 .lien_commander a{
-    color: rgb(145, 28, 28) !important;
-    font-weight: 400;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+    font-family: "Syne", serif;
+    letter-spacing: normal;
     background-color:#dc9f96;
     margin: 0 !important;
-    padding: 30px 70px 30px 70px;
+    padding: 38px 70px 38px 70px;
 }
