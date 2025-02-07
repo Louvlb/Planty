@@ -1,4 +1,4 @@
-/*HEADER*/
+/*HEADER***********************************************************************************************/
 
 /*Réglage des margin et padding du header pour qu'il prenne toute la largeur*/
 .header-inner{
@@ -50,4 +50,18 @@
     background-color:#dc9f96;
     margin: 0 !important;
     padding: 38px 70px 38px 70px;
+}
+
+
+
+/*FOOTER***********************************************************************************************/
+
+/*Cacher la partie du footer (copyright, etc) */
+#site-footer{
+    display: none;
+}
+
+/*Centrer le lien*/
+.footer-top{
+    justify-content: center;
 }
