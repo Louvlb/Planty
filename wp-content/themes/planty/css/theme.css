@@ -1,0 +1,39 @@
+.header-inner{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.section-inner{
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .section-inner {
+        width: 100%;
+    }
+}
+
+.site-logo img {
+    width: 300px;
+    padding-left: 60px;
+}
+
+li.menu-item a{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 65px;
+}
+
+.lien_menu a{
+    color: black !important;
+    font-weight: 400;
+}
+
+.lien_commander a{
+    color: white !important;
+    font-weight: 400;
+    background-color:#dc9f96;
+    margin: 0 !important;
+    padding: 30px 70px 30px 70px;
+}
