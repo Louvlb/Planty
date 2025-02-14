@@ -110,9 +110,16 @@ body p, h1, h2, h3 {
 
 .elementor-13 {
     max-width: 100% !important;
-    margin: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
+/*Supression du padding haut du conteneur "main"*/
 .post-inner{
     padding: 0;
+}
+
+.elementor-element{
+    padding: 0 !important;
 }
