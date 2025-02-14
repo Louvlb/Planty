@@ -1,3 +1,12 @@
+/*BODY***********************************************************************************************/
+
+/*Appliquer le bon font sur tous le site*/
+body p, h1, h2, h3 {
+    font-family: "Syne", serif !important;
+}
+
+
+
 /*HEADER***********************************************************************************************/
 
 /*Réglage des margin et padding du header pour qu'il prenne toute la largeur*/
@@ -17,6 +26,11 @@
     }
 }
 
+/*Réglage pour supprimer la partie basse du header*/
+.entry-header{
+    display: none;
+}
+
 /*Réglage pour reset les margin et padding des liens de menus à 0*/
 @media (min-width: 1220px) {
     .primary-menu li {
@@ -30,7 +44,7 @@
     padding-left: 60px;
 }
 
-/*Régalge des espacements, de la couleur et du gras du texte des liens de menus*/
+/*Réglage des espacements, de la couleur et du gras du texte des liens de menus*/
 .lien_menu a{
     color: black !important;
     font-weight: 400;
@@ -52,6 +66,16 @@
     padding: 38px 70px 38px 70px;
 }
 
+/*Ajout hover liens menus*/
+.lien_menu a:hover{
+    color: #dc9f96 !important;
+}
+
+.lien_commander a:hover{
+    text-decoration: underline !important;
+    background-color:#be8279 !important;
+}
+
 
 
 /*FOOTER***********************************************************************************************/
@@ -64,4 +88,31 @@
 /*Centrer le lien*/
 .footer-top{
     justify-content: center;
+}
+
+/*Réglage des espacements, de la couleur et du gras du texte des liens de menus*/
+.lien_menu_footer a{
+    color: black !important;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Syne", serif;
+    letter-spacing: normal;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: 65px;
+}
+
+
+
+/*MAIN***********************************************************************************************/
+
+/*Mettre le conteneur en full widht*/
+
+.elementor-13 {
+    max-width: 100% !important;
+    margin: auto !important;
+}
+
+.post-inner{
+    padding: 0;
 }
