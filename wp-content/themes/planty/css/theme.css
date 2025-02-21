@@ -50,8 +50,8 @@ body p, h1, h2, h3 {
     font-weight: 400;
     font-family: "Syne", serif;
     letter-spacing: normal;
-    margin-top: 38px;
-    margin-bottom: 38px;
+    padding-top: 38px;
+    padding-bottom: 38px;
     margin-right: 65px;
 }
 
@@ -74,6 +74,30 @@ body p, h1, h2, h3 {
 .lien_commander a:hover{
     text-decoration: underline !important;
     background-color:#be8279 !important;
+}
+
+/*Ajouter des marges hautes et basses en responsive */
+@media (max-width: 999px) {
+    .header-titles-wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* Retirer le sous-titre "Menu" */
+.toggle-text{
+    display: none;
+}
+
+/*Ajout d'une marge droite à la croix du menu*/
+button.close-nav-toggle{
+    padding-right: 20px;
+}
+
+@media (max-width: 999px) {
+    .ancestor-wrapper a{
+        padding-left: 25px !important;
+    }
 }
 
 
