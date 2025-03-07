@@ -224,9 +224,51 @@ label br{
     margin-left: 20% !important;
 }
 
+.wpcf7-textarea{
+    height: 250px;
+}
+
 /*Réglage largeur formulaire sur téléphone*/
 @media (max-width: 450px) {
     .elementor-element-79296f2{
         width: 300px !important;
     }
+}
+
+@media (min-width: 450px) and (max-width: 530px){
+    .elementor-element-ff064f6 img{
+        height: 100px !important;
+        width: 96px !important;
+    }
+    .elementor-element-ff064f6 .elementor-widget-container{
+        margin: -180px 0px 0px -390px !important;
+    }
+}
+
+@media (max-width: 450px){
+    .elementor-element-ff064f6 img{
+        height: 100px !important;
+        width: 96px !important;
+    }
+    .elementor-element-ff064f6 .elementor-widget-container{
+        margin: -220px 0px 0px -295px !important;
+    }
+}
+
+@media (max-width: 370px){
+    .elementor-element-ff064f6 img{
+        display:none !important;
+    }
+}
+
+
+
+/*COMMANDER***********************************************************************************************/
+
+/*Mettre le conteneur en full widht*/
+.elementor-17 {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
