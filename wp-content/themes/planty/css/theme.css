@@ -1,7 +1,7 @@
 /*BODY***********************************************************************************************/
 
 /*Appliquer le bon font sur tous le site*/
-body p, h1, h2, h3 {
+body p, h1, h2, h3, label {
     font-family: "Syne", serif !important;
 }
 
@@ -150,4 +150,64 @@ button.close-nav-toggle{
 
 .elementor-element{
     padding: 0 !important;
+}
+
+
+
+/*NOUS RENCONTRER***********************************************************************************************/
+
+/*Réduction de la marge droite de la fleur "Nous rencontrer" en responsive tablette grand*/
+@media (min-width: 1024px) and (max-width: 1100px) {
+    .elementor-15 .elementor-element.elementor-element-d838216 > .elementor-widget-container{
+        margin-right: 875px !important;
+    }
+}
+
+/*Réduction des marges haute et basse de la fleur "Nous rencontrer" en responsive tablette petit*/
+@media (min-width: 700px) and (max-width: 765px) {
+    .elementor-15 .elementor-element.elementor-element-d838216 > .elementor-widget-container{
+        margin-top: 38px !important;
+        margin-bottom: -125px !important;
+    }
+}
+
+/*Réduction des marges droite, haute et basse de la fleur "Nous rencontrer" en responsive mobile petit*/
+@media (max-width: 465px) {
+    .elementor-15 .elementor-element.elementor-element-d838216 > .elementor-widget-container{
+        margin-left: -110px !important;
+        margin-bottom: -90px !important;
+        margin-top: 22px !important;
+    }
+}
+
+/*Réduction des marges droite, haute et basse de la fleur "Nous rencontrer" en responsive mobile petit*/
+@media (max-width: 465px) {
+    .elementor-15 .elementor-element.elementor-element-d838216 img{
+        width: 60px !important;
+    }
+}
+
+/*Réglage de l'épaisseur du texte du formuliare*/
+label {
+    font-weight: 500;
+}
+
+/*Régalge de l'aspect des champs du formulaire*/
+.wpcf7-form-control{
+    border-radius: 10px !important;
+    border: none;
+    border-style: none !important;
+}
+
+/*Réglage de la marge basse des labels*/
+label br{
+    margin-bottom: 10px !important;
+}
+
+/*Réglage du bouton envoyer*/
+.wpcf7-submit{
+    text-transform: none !important;
+    background-color: #dc9f96 !important;
+    padding: 20px 75px 20px 75px !important;
+    margin-left: 22.5% !important;
 }
