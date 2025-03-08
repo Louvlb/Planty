@@ -235,6 +235,7 @@ label br{
     }
 }
 
+/*Réglage de la largueur du formulaire et de la fleur sur grands smartphone*/
 @media (min-width: 450px) and (max-width: 530px){
     .elementor-element-ff064f6 img{
         height: 100px !important;
@@ -245,6 +246,7 @@ label br{
     }
 }
 
+/*Réglage de la largueur du formulaire et de la fleur sur petits smartphone*/
 @media (max-width: 450px){
     .elementor-element-ff064f6 img{
         height: 100px !important;
@@ -255,6 +257,7 @@ label br{
     }
 }
 
+/*Suppression de la fleur sut tout petit smartphone*/
 @media (max-width: 370px){
     .elementor-element-ff064f6 img{
         display:none !important;
@@ -271,4 +274,19 @@ label br{
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
+}
+
+/*Réglage du bloc de commande*/
+.block_commande{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -215px;
+}
+
+/*Réglage de l'apparence des champs du bloc commande*/
+.commande{
+    border-radius: 0px !important;
+    appearance: textfield !important;
+    text-align: center;
+    padding: 20px 5px 20px 5px !important;
 }
