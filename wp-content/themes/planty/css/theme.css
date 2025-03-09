@@ -280,7 +280,13 @@ label br{
 .block_commande{
     display: flex;
     justify-content: space-around;
-    margin-top: -215px;
+    margin-top: -225px;
+}
+
+.commande_1, .commande_2{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
 }
 
 /*Réglage de l'apparence des champs du bloc commande*/
@@ -289,4 +295,111 @@ label br{
     appearance: textfield !important;
     text-align: center;
     padding: 20px 5px 20px 5px !important;
+}
+
+/*Passage de infos et livraison sur la même ligne + labels en blanc*/
+.block-double{
+    display: flex;
+    margin-top: 125px;
+    color: #FFF;
+}
+
+/*Réglage écart entre infos et commande*/
+.block_infos{
+    margin-right: 75px !important;
+}
+
+/*Régalge écart entre labels et champs + hauteur champs*/
+.block-double input{
+    margin-top: 10px;
+    height: 60px;
+}
+
+/*Retrait des flècges des champs numéros*/
+.block_livraison .wpcf7-number{
+    appearance: textfield !important;
+}
+
+/*Configuration apparence bouton envoyer*/
+.wpcf7-submit{
+    font-family: Syne;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px 65px 20px 65px !important;
+}
+
+/*Réglage emplacement bouton envoyer*/
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+/*Largeur bouton envoyer*/
+.submit p{
+    width: 246px;
+}
+
+/*Couleur texte bouton envoyer + retrait marges*/
+.submit input{
+    Margin: 0 !important;
+    color:#FFF !important;
+}
+
+@media (max-width: 870px){
+    .block-double{
+        width: 95%;
+        justify-self: center !important;
+    }
+}
+
+@media (max-width: 1025px){
+    .block_commande{
+        margin-top: -215px
+    }
+}
+
+@media (max-width: 767px){
+    .block_commande{
+        flex-direction: column;
+    }
+    .commande_1, .commande_2{
+        width:100%;
+    }
+    .commande_1{
+        margin-bottom: 35%;
+    }
+    .elementor-element-5bcc908{
+        margin-bottom: -43% !important;
+    }
+    .block-double{
+        margin-top: 105px;
+    }
+}
+
+@media (max-width: 699px){
+    .elementor-element-5bcc908{
+        margin-top: 15px !important;
+        margin-bottom: -40% !important;
+    }
+    .block-double{
+        margin-top: 95px;
+    }
+}
+
+@media (max-width: 550px){
+    .block-double{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 435px){
+    .elementor-element-5bcc908{
+        margin-bottom: -47% !important;
+    }
+}
+
+@media (max-width: 331px){
+    .elementor-element-5bcc908{
+        margin-bottom: -60% !important;
+    }
 }
