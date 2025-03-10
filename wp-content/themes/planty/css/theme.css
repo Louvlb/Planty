@@ -347,8 +347,10 @@ label br{
 
 @media (max-width: 870px){
     .block-double{
-        width: 95%;
+        width: 94%;
         justify-self: center !important;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }
 
@@ -387,8 +389,33 @@ label br{
 }
 
 @media (max-width: 550px){
+    .block_commande{
+        margin-top: -625px;
+    }
+    .elementor-element-409dc6c{
+        width: 200px !important;
+        text-align: center !important;
+    }
+    .elementor-element-d7aa76c{
+        width: 200px !important;
+        text-align: center !important;
+    }
     .block-double{
         flex-direction: column;
+    }
+    .elementor-element-5bcc908{
+        display: flex;
+        flex-direction: column !important;
+        gap: 315px !important;
+        text-align: center;
+    }
+    .block_infos{
+        margin-right: 0 !important;
+        margin-top: -25px;
+        margin-bottom: 65px;
+    }
+    .block_livraison{
+        margin-bottom: 25px;
     }
 }
 
@@ -396,10 +423,27 @@ label br{
     .elementor-element-5bcc908{
         margin-bottom: -47% !important;
     }
+    .block_commande{
+        margin-top: -615px;
+    }
+    .elementor-element-409dc6c{
+        width: 200px !important;
+        text-align: center !important;
+    }
+    .elementor-element-d7aa76c{
+        width: 200px !important;
+        text-align: center !important;
+    }
+    .block-double{
+        margin-top: 115px;
+    }
 }
 
 @media (max-width: 331px){
     .elementor-element-5bcc908{
         margin-bottom: -60% !important;
+    }
+    .block_commande {
+        margin-top: -575px;
     }
 }
