@@ -131,6 +131,10 @@ button.close-nav-toggle{
     margin-top: 0 !important;
 }
 
+.menu-item-25 a{
+    margin-right:0 !important;
+}
+
 
 
 /*MAIN***********************************************************************************************/
@@ -152,7 +156,14 @@ button.close-nav-toggle{
     padding: 0 !important;
 }
 
-
+@media (max-width: 372px) {
+    .elementor-element-365134c img{
+        height: 600px !important;
+    }
+    .elementor-element-389e001{
+        margin-top: -475px !important;
+    }
+}
 
 /*NOUS RENCONTRER***********************************************************************************************/
 
